@@ -8,14 +8,12 @@
 </head>
 <body>
     <div id="app">{{ message }}</div>
-
     <script>
-        const{createApp, ref} = Vue;
+        const{createApp,ref} = Vue;
         createApp({
             setup(){
-                const message = ref("hello vue!")
-                return{
-                    message,
+                const message = ref("xin chao moi nguoi nha");
+                return{ message,
                 };
             },
         }).mount("#app");
